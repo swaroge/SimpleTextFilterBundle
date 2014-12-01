@@ -1,0 +1,30 @@
+{
+    "name" : "swaroge/simple-text-filter-bundle",
+    "description" : "Simple text filter bundle",
+    "type" : "symfony-bundle",
+    "authors" : [{
+        "name" : "Swaroge",
+        "email" : "swaroge@gmail.com"
+    }],
+    "keywords" : [
+        "simple text filter bundle"
+    ],
+    "license" : [
+        "MIT"
+    ],
+    "require" : {
+    },
+    "autoload" : {
+        "psr-0" : {
+            "Swaroge\\SimpleTextFilterBundle" : ""
+        }
+    },
+    "target-dir" : "Swaroge/SimpleTextFilterBundle",
+    "repositories" : [{
+    }],
+    "extra" : {
+        "branch-alias" : {
+            "dev-master" : "1.0-dev"
+        }
+    }
+}

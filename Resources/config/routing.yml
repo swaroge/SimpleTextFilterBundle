@@ -1,0 +1,3 @@
+swaroge_simple_text_filter_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: SwarogeSimpleTextFilterBundle:Default:index }

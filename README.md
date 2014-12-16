@@ -4,7 +4,7 @@ Its simple filter for Symfony 2 Entity.
 
 ### Installation
 
-> composer
+#### composer
 * "require" section 
 ```json
     "require": {

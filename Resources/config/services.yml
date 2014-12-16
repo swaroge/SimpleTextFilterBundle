@@ -1,4 +1,4 @@
 services:
-#    swaroge_simple_text_filter.example:
-#        class: Swaroge\SimpleTextFilterBundle\Example
-#        arguments: [@service_id, "plain_value", %parameter%]
+    sw_simple_text_filter:
+        class: Swaroge\SimpleTextFilterBundle\Service\TextSimpleFilter
+        arguments: [query]

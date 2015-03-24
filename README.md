@@ -79,7 +79,6 @@ create public method in class
     
 ### Changes in controller    
         <?php
-        use Swaroge\SimpleTextFilterBundle\Service\TextSimpleFilter;
         /*...*/
         public function indexAction(){
             $textSimpleFilter = new TextSimpleFilter();

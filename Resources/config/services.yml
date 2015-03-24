@@ -1,4 +1,4 @@
 services:
     sw_simple_text_filter:
         class: Swaroge\SimpleTextFilterBundle\Service\TextSimpleFilter
-        arguments: [query]
+        arguments: [@service_container, query]
